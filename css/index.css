@@ -74,6 +74,34 @@ ul {
 
 }
 
+@media ( max-width: 768px ) {
+
+    .social-proof {
+    
+        padding-bottom: 60px;
+    
+    }
+    
+}
+
+.social-proof > img.top-pattern {
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+}
+
+.social-proof .container {
+
+    position: relative;
+
+    z-index: 2;
+
+}
+
 .social-proof .content {
 
     margin-bottom: 60px;
